@@ -3,7 +3,7 @@ from django.test import TestCase
 from django.http import HttpRequest
 from lists.views import home_page
 from lists.models import Item, List
-from lists.forms import ItemForm, EMPTY_ITEM_ERROR
+from lists.forms import EMPTY_ITEM_ERROR, ItemForm
 from django.template.loader import render_to_string
 
 
